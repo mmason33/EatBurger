@@ -2,28 +2,26 @@
   "name": "burger",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "engines": {
-    "node": "4.1.1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/mmason33/EatBurger.git"
   },
-  "author": "guyfinkle",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tomtom28/burger/issues"
+    "url": "https://github.com/mmason33/EatBurger/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/mmason33/EatBurger#readme",
   "dependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.15.4",
     "express-handlebars": "^3.0.0",
-    "method-override": "^2.3.6",
-    "mysql": "^2.12.0"
+    "method-override": "^2.3.9"
   }
 }
